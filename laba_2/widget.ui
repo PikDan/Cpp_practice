@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>903</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QLabel" name="result_label">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>270</y>
+     <width>251</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>352</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>    ВЫБЕРИТЕ ПО СЕРЕДИНЕ ЛОГ.ОПЕРАЦИЮ</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>70</y>
+     <width>421</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QComboBox" name="operand_left">
+      <item>
+       <property name="text">
+        <string>false</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>true</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="operand_middle">
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ИЛИ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ИСКЛЮЧАЮЩЕЕ ИЛИ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>НЕ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>РАВНО</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>НЕ РАВНО</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="operand_right">
+      <item>
+       <property name="text">
+        <string>false</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>true</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QCheckBox" name="change_btn_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>131</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>СМЕНА РЕЗУЛЬТАТА</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

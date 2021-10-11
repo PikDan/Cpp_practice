@@ -1,0 +1,27 @@
+#ifndef TOP_H
+#define TOP_H
+
+#include <math.h>
+
+struct top
+{
+    int x = 0;
+    int y = 0;
+};
+
+
+class threeugla
+{
+private:
+    double a = 0, b = 0, c = 0;
+    double p = 0;
+    double s = 0;
+    double calcPerimetr();
+    double calcSquare();
+public:
+    top top1, top2, top3;
+    double getPerimetr();
+    double getSquare();
+};
+
+#endif // TREEUGLA_H

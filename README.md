@@ -1,2 +1,2 @@
 # Cpp_practice
-university practice projects
+University practice projects C++(QT)

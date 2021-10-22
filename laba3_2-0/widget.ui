@@ -149,11 +149,11 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="coordinats_LBL">
+  <widget class="QLabel" name="index_LBL">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>70</y>
+     <x>90</x>
+     <y>60</y>
      <width>197</width>
      <height>40</height>
     </rect>
@@ -396,6 +396,13 @@
       </property>
      </widget>
     </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="y2_LBL">
+      <property name="text">
+       <string>Y2</string>
+      </property>
+     </widget>
+    </item>
     <item row="1" column="0">
      <widget class="QLabel" name="x2_LBL">
       <property name="maximumSize">
@@ -409,10 +416,66 @@
       </property>
      </widget>
     </item>
-    <item row="2" column="0">
-     <widget class="QLabel" name="y2_LBL">
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>0</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Найти по:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>50</y>
+     <width>331</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QRadioButton" name="tops_RB">
       <property name="text">
-       <string>Y2</string>
+       <string>Кординатам вершин</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="three_side_RB">
+      <property name="text">
+       <string>Длине трёх сторон</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="twoSides_angle_RB">
+      <property name="text">
+       <string>Длине 2-х сторон и углу между ними</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="oneSide_twoAngl_RB">
+      <property name="text">
+       <string>Длине одной стороны и двум углам</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="TwoTops_twoAngl_RB">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Координатам вершин одной стороны&lt;/p&gt;&lt;p&gt; и двум углам&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>Вершинам одной стороны и двум углам</string>
       </property>
      </widget>
     </item>

@@ -1,15 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2021-10-11T13:12:20
+# Project created by QtCreator 2021-10-11T23:07:02
 #
 #-------------------------------------------------
 
 QT       += core gui
 
-
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = laba3_2-0
+TARGET = laba4_Polygon
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use

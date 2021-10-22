@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QLineEdit>
 #include <math.h>
+#include<cmath>
 
 namespace Ui {
 class Widget;
@@ -11,8 +12,18 @@ class Widget;
 
 struct tops
 {
-    int x = 0;
-    int y = 0;
+    float x;
+    float y;
+};
+struct sides
+{
+    float side;
+
+};
+struct Angle
+{
+    float degree;
+    float minute;
 };
 
 class Widget : public QWidget
@@ -24,6 +35,8 @@ public:
     explicit Widget(QWidget *parent = nullptr);
     void calculateAll();
     tops top1, top2, top3;
+    sides A,B,C;
+    Angle angle;
     ~Widget();
 
 private slots:
@@ -41,7 +54,20 @@ private slots:
 
     void on_y3_LN_textChanged(const QString &arg1);
 
+    void on_tops_RB_clicked();
+
+    void on_three_side_RB_clicked();
+
+    void on_twoSides_angle_RB_clicked();
+
+    void on_oneSide_twoAngl_RB_clicked();
+
+    void on_TwoTops_twoAngl_RB_clicked();
+
 private:
+    void invise_set();
+    void clearing();
+    bool valid(float a,float b,float c);
     double a , b , c ;
     double p;
     double s;

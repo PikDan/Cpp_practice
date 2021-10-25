@@ -12,18 +12,17 @@ class Widget;
 
 struct tops
 {
-    float x;
-    float y;
+    double x;
+    double y;
 };
 struct sides
 {
-    float side;
+    double side;
 
 };
 struct Angle
 {
-    float degree;
-    float minute;
+    double degree;
 };
 
 class Widget : public QWidget
@@ -36,7 +35,7 @@ public:
     void calculateAll();
     tops top1, top2, top3;
     sides A,B,C;
-    Angle angle;
+    Angle angle_alfa, angle_beta, angle_gamma;
     ~Widget();
 
 private slots:
@@ -65,13 +64,18 @@ private slots:
     void on_TwoTops_twoAngl_RB_clicked();
 
 private:
+    bool valid(double a,double b,double c);
     void invise_set();
     void clearing();
-    bool valid(float a,float b,float c);
+    void warnings();
     double a , b , c ;
     double p;
     double s;
-    double calcPerimetr();
+    double calcPerimetr_forTops();
+    double calcPerimetr_for3Side();
+    double calcPerimetr_for_TwoSide_angle();
+    double calcPerimetr_for_Side_TwoAngle();
+    double calkPerimitr_for_Tops_TwoAngle();
     double calcSquare();
     bool checkLineResult(QLineEdit*, bool);
     void refreshResults();

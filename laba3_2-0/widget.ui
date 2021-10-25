@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>882</width>
+    <width>916</width>
     <height>535</height>
    </rect>
   </property>
@@ -16,8 +16,8 @@
   <widget class="QLineEdit" name="squar_LN_rslt">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>210</y>
+     <x>480</x>
+     <y>300</y>
      <width>411</width>
      <height>20</height>
     </rect>
@@ -47,8 +47,8 @@
   <widget class="QLabel" name="all_rslt_LBL">
    <property name="geometry">
     <rect>
-     <x>480</x>
-     <y>60</y>
+     <x>470</x>
+     <y>220</y>
      <width>135</width>
      <height>40</height>
     </rect>
@@ -71,7 +71,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Результаты</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Результаты:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -83,8 +83,8 @@
   <widget class="QLineEdit" name="perimetr_LN_rslt">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>330</y>
+     <x>480</x>
+     <y>420</y>
      <width>411</width>
      <height>20</height>
     </rect>
@@ -111,8 +111,8 @@
   <widget class="QLabel" name="parimeter_LBL">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>260</y>
+     <x>480</x>
+     <y>350</y>
      <width>411</width>
      <height>61</height>
     </rect>
@@ -195,23 +195,19 @@
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
-    <item row="1" column="0">
-     <widget class="QLabel" name="y1_LBL">
-      <property name="text">
-       <string>Y1</string>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="y1_LN">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="x1_LBL">
       <property name="maximumSize">
        <size>
-        <width>15</width>
+        <width>100</width>
         <height>16777215</height>
        </size>
-      </property>
-      <property name="text">
-       <string>X1</string>
       </property>
      </widget>
     </item>
@@ -231,19 +227,23 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="y1_LN">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
+    <item row="1" column="0">
+     <widget class="QLabel" name="y1_LBL">
+      <property name="text">
+       <string>Y1</string>
       </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="x1_LBL">
       <property name="maximumSize">
        <size>
-        <width>100</width>
-        <height>16777215</height>
+        <width>15</width>
+        <height>22</height>
        </size>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;X1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -316,8 +316,8 @@
   <widget class="QLabel" name="squar_LBL">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>110</y>
+     <x>470</x>
+     <y>200</y>
      <width>411</width>
      <height>79</height>
     </rect>
@@ -348,7 +348,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Площадь</string>
+    <string> Площадь</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -423,12 +423,12 @@
     <rect>
      <x>660</x>
      <y>0</y>
-     <width>181</width>
+     <width>221</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Найти по:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Найти &amp;quot;S&amp;quot; и &amp;quot;P&amp;quot; по :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
@@ -437,7 +437,7 @@
      <x>650</x>
      <y>50</y>
      <width>331</width>
-     <height>111</height>
+     <height>130</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">

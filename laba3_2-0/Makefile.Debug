@@ -218,7 +218,7 @@ debug/moc_widget.cpp: widget.h \
 		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qtextoption.h \
 		debug/moc_predefs.h \
 		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/bin/moc.exe
-	C:\Qt\Qt5.12.1\5.12.1\mingw73_64\bin\moc.exe $(DEFINES) --include C:/Users/Nikita/Documents/all_labs_cpp/laba3_2-0/debug/moc_predefs.h -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/win32-g++ -IC:/Users/Nikita/Documents/all_labs_cpp/laba3_2-0 -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtANGLE -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -IC:/Qt/Qt5.12.1/Tools/mingw730_64/x86_64-w64-mingw32/include widget.h -o debug\moc_widget.cpp
+	C:\Qt\Qt5.12.1\5.12.1\mingw73_64\bin\moc.exe $(DEFINES) --include D:/QTProjects/Cpp_practice/laba3_2-0/debug/moc_predefs.h -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/win32-g++ -ID:/QTProjects/Cpp_practice/laba3_2-0 -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtANGLE -IC:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -IC:/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -IC:/Qt/Qt5.12.1/Tools/mingw730_64/x86_64-w64-mingw32/include widget.h -o debug\moc_widget.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -474,7 +474,27 @@ debug/widget.o: widget.cpp widget.h \
 		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qtextformat.h \
 		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qpen.h \
 		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qtextoption.h \
-		ui_widget.h
+		ui_widget.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/QVariant \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qeventloop.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QGridLayout \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QLabel \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qlabel.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QRadioButton \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qradiobutton.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qicon.h \
+		C:/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QVBoxLayout
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\widget.o widget.cpp
 
 debug/moc_widget.o: debug/moc_widget.cpp 

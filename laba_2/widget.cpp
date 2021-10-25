@@ -65,18 +65,21 @@ void Widget::Calculate()
        result = left_index != right_index;
        break;
    }
+      if (ui->change_btn_2->isChecked())
+       {
+          result = !result;
+       }
 
-
-   if (ui->change_btn_2->isChecked())
-   {
-      ui->result_label->setText(result ? "это ложь" : "это правда");
-      ChangeBGColor(!result);
-   }
-   else
-   {
-       ui->result_label->setText(result ? "это правда" : "это ложь");
-       ChangeBGColor(result);
-   }
+      if(result)
+      {
+          ui->result_label->setText("это правда");
+          ChangeBGColor(result);
+      }
+      else
+       {
+          ui->result_label->setText("это ложь");
+          ChangeBGColor(result);
+       }
 }
 
 void Widget::on_operand_left_currentIndexChanged(int)
